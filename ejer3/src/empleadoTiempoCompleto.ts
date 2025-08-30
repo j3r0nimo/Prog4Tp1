@@ -1,12 +1,6 @@
-import {Empleado} from "./empleado"
+import { Empleado } from "./empleado"
 
-export class empleadoTiempoCompleto extends Empleado {
-    constructor(
-        nombre:string,
-        salarioBase: number
-    ){
-        super(nombre, salarioBase);
-    }
+export class EmpleadoTiempoCompleto extends Empleado {
     calcularSalario(): number {
         return this.getSalarioBase() + 20000;
     }
