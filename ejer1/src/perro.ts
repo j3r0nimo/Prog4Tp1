@@ -5,7 +5,7 @@ export class Perro implements Animal{
         console.log("Guau!");
     }
     moverse(): void {
-        console.log("el perro se mueve");
+        console.log("el perro corre");
     }
 
 }
