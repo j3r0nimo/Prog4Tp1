@@ -1,4 +1,4 @@
-import { Empleado } from "./empleado"
+import { Empleado } from "./empleado";
 
 export class EmpleadoTiempoCompleto extends Empleado {
     calcularSalario(): number {
