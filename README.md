@@ -8,12 +8,11 @@
 
 Los archivos los vamos a ejecutar desde la carpeta raiz del trabajo practico.
 
-` npm start ejer/src/index.ts `
-
-Despues de ==ejer== hay que poner el numero del ejercicio.
-Ej:
-
 ` npm start ejer1/src/index.ts `
+El valor ejer1 debe modificarse según la carpeta
+
+Ej: ` npm start ejer4/src/index.ts `
+
 
 
 ---
