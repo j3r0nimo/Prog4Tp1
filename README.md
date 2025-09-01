@@ -6,9 +6,11 @@
 ---
 ## Ejecucion de los programas de cada ejercicio:
 
+Los archivos los vamos a ejecutar desde la carpeta raiz del trabajo practico.
+
 ` npm start ejer/src/index.ts `
 
-Despues de ==ejer== hay que poner el numero del ejercicio
+Despues de ==ejer== hay que poner el numero del ejercicio.
 Ej:
 
 ` npm start ejer1/src/index.ts `
