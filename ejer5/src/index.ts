@@ -1,5 +1,5 @@
-import {Auto} from "./auto"
-import {Moto} from "./moto"
+import {Auto} from "./auto";
+import {Moto} from "./moto";
 
 const dax = new Moto;
 const taunus = new Auto;

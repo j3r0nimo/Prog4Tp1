@@ -1,5 +1,5 @@
-import {Vehiculo} from "./vehiculo"
-import {Electrico} from "./electrico"
+import {Vehiculo} from "./vehiculo";
+import {Electrico} from "./electrico";
 
 export class Moto extends Vehiculo implements Electrico{
     andar(){
