@@ -4,4 +4,4 @@
 - Carlos Alberto Arce 
 - Marcos Diaz
 
-![Diagrama UML](./ejer3/imgs/ejer3_diagrama.png)
+![Diagrama UML](./ejer3/imgs/ejer3_diagramaUML.png)
