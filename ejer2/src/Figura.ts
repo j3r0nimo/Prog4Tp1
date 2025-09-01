@@ -1,6 +1,6 @@
 //clase abstracta
 
-export abstract class Figura {
+export abstract class FiguraGeometrica {
     protected nombre: string;
     constructor(nombre: string) {
         this.nombre = nombre;

@@ -1,10 +1,10 @@
-import {Figura} from './Figura.js';
+import {FiguraGeometrica} from './Figura';
 
-export class Triangulo extends Figura {
+export class Triangulo extends FiguraGeometrica {
     private base: number;
     private altura: number;
-    constructor(base: number, altura: number) {
-        super("Triangulo");
+    constructor(nombre: string, base: number, altura: number) {
+        super(nombre);
         this.base = base;
         this.altura = altura;
     }

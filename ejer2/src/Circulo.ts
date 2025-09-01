@@ -1,10 +1,10 @@
-import {Figura} from './Figura.js'
+import {FiguraGeometrica} from './Figura'
 
-export class Circulo extends Figura {
+export class Circulo extends FiguraGeometrica {
     private radio: number
 
-    constructor(radio: number) {
-        super("Circulo");
+    constructor(nombre: string, radio: number) {
+        super(nombre);
         this.radio = radio;
     }
 

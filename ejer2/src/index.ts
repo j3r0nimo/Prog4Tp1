@@ -1,13 +1,13 @@
-import {Figura} from './Figura.js'
-import {Circulo} from './Circulo.js'
-import {Rectangulo} from './Rectangulo.js'
-import {Triangulo} from './Triangulo.js'
+import {FiguraGeometrica} from './Figura'
+import {Circulo} from './Circulo'
+import {Cuadrado} from './Cuadrado'
+import {Triangulo} from './Triangulo'
 
-const figuras: Figura[] = [];
+const figuras: FiguraGeometrica[] = [];
 
-figuras.push(new Circulo(5));
-figuras.push(new Rectangulo(3, 4));
-figuras.push(new Triangulo(3, 4));
+figuras.push(new Circulo("Circulo de Viena", 5));
+figuras.push(new Cuadrado("Cuadrado",4));
+figuras.push(new Triangulo("Triangulo de las bermudas",3, 4));
 
 figuras.forEach((figura) => {
     console.log(`El area de ${figura.getNombre()} es ${figura.calcularArea()}`);
